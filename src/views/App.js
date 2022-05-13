@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.scss';
-import Home from './Nav/Home';
+import Home from './Example/Home';
 import MyComponent from './Example/MyComponent.js';
 import Nav from './Nav/Nav';
 import ListTodo from './Todos/ListTodo';
