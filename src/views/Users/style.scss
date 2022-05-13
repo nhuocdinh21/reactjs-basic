@@ -1,0 +1,20 @@
+.list_user_container
+{
+    .list_user_content
+    {
+        margin: 15px 0 0;
+        .child
+        {
+            max-width: 400px;
+            margin: 0 auto;
+            border: 1px solid grey;
+            border-top: none;
+            padding: 10px 0;
+            cursor: pointer;
+            &:first-child
+            {
+                border-top: 1px solid grey;
+            }
+        }
+    }
+}

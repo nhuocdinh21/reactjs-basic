@@ -1,0 +1,42 @@
+:root
+{
+    --white: #fff;
+    --grey: #808080;
+}
+button
+{
+    cursor: pointer;
+}
+.list_todo_container
+{
+    max-width: 400px;
+    margin: 0 auto;
+    .add_todo
+    {
+        button
+        {
+            margin: 0 0 0 10px;
+        }
+    }
+    .list_todo_content
+    {
+        margin: 15px 0 0;
+        .todo_child
+        {
+            border-bottom: 1px solid var(--grey);
+            padding: 10px 0;
+            &:first-child
+            {
+                border-top: 1px solid var(--grey);
+            }
+            span
+            {
+                margin: 0 10px 0 0;
+            }
+            .delete
+            {
+                margin: 0 0 0 10px;
+            }
+        }
+    }
+}
